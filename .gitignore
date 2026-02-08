@@ -1,0 +1,9 @@
+# PocketBase runtime data
+pb_data/
+pb_storage/
+
+# OS junk
+.DS_Store
+
+# Env / secrets
+.env
