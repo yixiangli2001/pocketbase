@@ -7,3 +7,5 @@ pb_storage/
 
 # Env / secrets
 .env
+
+test_hooks/
