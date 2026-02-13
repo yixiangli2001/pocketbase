@@ -38,7 +38,7 @@ routerAdd("GET", "/content/{source}/{contentType}", (c) => {
     let baseUrl = "";
     if (source === "gjw") {
       baseUrl =
-        "https://gw.ganjingworld.com/v1.1/content/get-by-channel?lang=zh-TW";
+        "https://gw.ganjingworld.com/v1.1/content/get-by-channel?lang=zh-CN";
     } else {
       return null;
     }

@@ -28,7 +28,7 @@ routerAdd("GET", "/content/{source}/{contentType}/{contentId}", (c) => {
   function buildUpstreamUrl(source, contentType, contentId) {
     let baseUrl = "";
     if (source === "gjw") {
-      baseUrl = "https://gw.ganjingworld.com/v1.1/content/query?lang=zh-TW";
+      baseUrl = "https://gw.ganjingworld.com/v1.1/content/query?lang=zh-CN";
     } else {
       return null;
     }

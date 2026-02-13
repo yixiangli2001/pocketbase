@@ -9,3 +9,8 @@ pb_storage/
 .env
 
 test_hooks/
+
+pocketbase
+LICENSE.md
+CHANGELOG.md
+
